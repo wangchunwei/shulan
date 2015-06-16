@@ -28,9 +28,9 @@
 <link rel="shortcut icon" href="images/favicon.ico">
 <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 <link rel="apple-touch-icon" sizes="72x72"
-	href="images/apple-touch-icon-72x72.png">
+    href="images/apple-touch-icon-72x72.png">
 <link rel="apple-touch-icon" sizes="114x114"
-	href="images/apple-touch-icon-114x114.png">
+    href="images/apple-touch-icon-114x114.png">
 </head>
 <?php
 //菜单高亮相关
@@ -64,30 +64,35 @@ $meau = array(
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
                   <?php
-$flag = true;
-foreach($meau as $k => $v) {
-    /*首页特殊处理
-    if($url == '/'){
-        if($flag) {
-            echo "<li class='active'><a href='{$k}'>{$v}</a></li>";
-            $flag = false;
-        }else{
-            echo "<li><a href='{$k}'>{$v}</a></li>";
-        }
-        continue;
-    }*/
-    
-    
-    if(strpos($k, $url) === false){
-        echo "<li><a href='{$k}'>{$v}</a></li>";	   
-    }else{
-        echo "<li class='active'><a href='{$k}'>{$v}</a></li>";	 
-    }   
-}
-?>
+                    foreach($meau as $k => $v) {
+                        if(strpos($k, $url) === false){
+                            echo "<li><a href='{$k}'>{$v}</a></li>";       
+                        }else{
+                            echo "<li class='active'><a href='{$k}'>{$v}</a></li>";  
+                        }   
+                    }
+                    ?>
               </ul>
             </div>
           
         </nav>
 
 <?php echo $content; ?>
+        
+<footer>
+    <div class="thumbnail" style="background-color: rgb(142, 52, 52); color:white">
+        <p align = 'center' style="color:white">
+        <a href="/about/" rel="nofollow"><font color=white>法律声明</font></a>&nbsp&nbsp&nbsp&nbsp
+        <a href="/about/" rel="nofollow"><font color=white>关于束兰</font></a>&nbsp&nbsp&nbsp&nbsp
+        <a href="/about/" rel="nofollow"><font color=white>人力资源</font></a>&nbsp&nbsp&nbsp&nbsp
+        <a href="/about/" rel="nofollow"><font color=white>建议信箱</font></a>&nbsp&nbsp&nbsp&nbsp
+        <a href="/about/" rel="nofollow"><font color=white>精品店</font></a>&nbsp&nbsp&nbsp&nbsp
+        <a href="/about/" rel="nofollow"><font color=white>官方微博</font></a>&nbsp&nbsp&nbsp&nbsp
+        </p>
+        <font size=4><p align = 'center'>&copy; 2015 www.shulancc.com;</p></font>
+    </div>
+</footer>      
+        
+        
+        
+        

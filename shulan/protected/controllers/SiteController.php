@@ -18,6 +18,12 @@ class SiteController extends CController
         
     }
     
+    public function actionLaw()
+    {
+        $this->render("law");    
+        
+    }
+    
     public function actionAddress()
     {
         
@@ -34,7 +40,7 @@ class SiteController extends CController
     public function actionHistory()
     {
         
-     	$this->render("history");   
+        $this->render("history");   
     }
     
     public function actionSafe()
@@ -50,6 +56,6 @@ class SiteController extends CController
     
     public function actionStatus()
     {
-     	$this->render("status");
+        $this->render("status");
     }
 }
