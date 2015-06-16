@@ -44,6 +44,7 @@ $meau = array(
     '/shulan/site/show/'    => '精品秀场',
     '/shulan/site/status/'    => '品牌动态',
     '/shulan/site/address/'   => '地址',
+    '/shulan/site/suggest/'   => '建议',
     );
 ?>
 
