@@ -60,7 +60,7 @@ $meau = array(
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#">束兰官网</a>
+                <a href="/"> <img src="../../../../images/shulan/logo.png" width="80px" height="50px"/></a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
