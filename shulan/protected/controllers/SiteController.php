@@ -62,7 +62,12 @@ class SiteController extends CController
     public function actionSuggest()
     {
         $this->render("suggest");    
-    } 
+    }
+    
+    public function actionCulture()
+    {
+        $this->render("culture");
+    }
     
     public function actionSetSuggest()
     {
