@@ -1,19 +1,33 @@
-<style>
-    #link_address{
-        width:400px;
-        height:500px;
-        margin:0 auto;
-    }
+
+<style type="text/css">
+#allmap {width: 60%;height: 65%;overflow: hidden;margin:10px 50px ;font-family:"微软雅黑";}
 </style>
-<script src="http://api.map.baidu.com/api?v=1.4"></script>
-<div id="link_adress"></div>   
-    <script language="javascript" type="text/javascript">
-//功能：拖拽、放大缩小（鼠标、键盘、屏幕）、路线、周边
-   var link_map = new BMap.Map("limk_adress");
-   link_map.centerAndZoom(new BMap.Point(116.404, 39.915), 11);//实例化地图
-  var link_control = new BMap.MapTypeControl();
-  link_map.addControl(link_control);
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=1.5&ak=GPYTEfGSmhCcrYmNEgAzX7UQ">
 </script>
 
 
+<div class="row">
+<div class="col-md-10 col-sm-offset-1">
+    <div class="address-bg">
+<br>
+<br>
+        <div id="allmap"></div>
+
+<script type="text/javascript">
+  // 百度地图API功能
+
+    
+    var map = new BMap.Map("allmap");
+  var point = new BMap.Point(125.335962,43.901434);
+    map.addControl(new BMap.MapTypeControl()); 
+  map.centerAndZoom(point, 15);
+  var marker = new BMap.Marker(point);  // 创建标注
+  map.addOverlay(marker);               // 将标注添加到地图中
+  marker.setAnimation(BMAP_ANIMATION_BOUNCE); //跳动的动画
+    map.enableScrollWheelZoom(true);  
+</script>
+
+        </div>
+    </div>
+    </div>
 
