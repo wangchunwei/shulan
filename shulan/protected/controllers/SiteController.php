@@ -20,7 +20,7 @@ class SiteController extends CController
     
     public function actionLaw()
     {
-        $this->render("law");    
+    	$this->render("law");    
         
     }
     
@@ -40,7 +40,7 @@ class SiteController extends CController
     public function actionHistory()
     {
         
-        $this->render("history");   
+     	$this->render("history");   
     }
     
     public function actionSafe()
@@ -56,17 +56,23 @@ class SiteController extends CController
     
     public function actionStatus()
     {
-        $this->render("status");
+     	$this->render("status");
     }
     
     public function actionSuggest()
     {
-        $this->render("suggest");    
+    	$this->render("suggest");    
     }
     
     public function actionCulture()
     {
-        $this->render("culture");
+     	$this->render("culture");
+    }
+    
+    public function actionGallery()
+    {
+     	$this->render("gallery");   
+        
     }
     
     public function actionSetSuggest()
@@ -91,7 +97,7 @@ class SiteController extends CController
         
         $sql = "INSERT  INTO `suggest` ( `name`,`email`, `city`,`mobile`, `content`, `ctime`) VALUES (  '" .$name."' , '" .$mail."' ,'" .$city."' , '". $phone."', '". $content. "', NOW() ) ";
         
-        $mysql->runSql($sql);
+		$mysql->runSql($sql);
         
         echo json_encode(array('msg' => '提交成功！！感谢您的宝贵意见'));
         
