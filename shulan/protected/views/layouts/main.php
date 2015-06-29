@@ -82,7 +82,7 @@ $meau = array(
 <?php echo $content; ?>
         
 <footer>
-    <div class="thumbnail" style="background-color: rgb(142, 52, 52); color:white">
+    <div class="thumbnail" style="background-color: rgb(142, 52, 52); color:white;margin-bottom: 0;">
         <p align = 'center' style="color:white">
         <a href="/about/" rel="nofollow"><font color=white>法律声明</font></a>&nbsp&nbsp&nbsp&nbsp
         <a href="/about/" rel="nofollow"><font color=white>关于束兰</font></a>&nbsp&nbsp&nbsp&nbsp

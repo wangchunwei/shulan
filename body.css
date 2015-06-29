@@ -1,6 +1,36 @@
 
+*{
+	padding:0; margin:0
+}
 body {
   background-image: url(../images/shulan/BG1.jpg);
 
 }
+
+p{
+text-indent: 2em;
+}
+
+.bg{
+  background: url(../images/shulan/suggestBG.jpg) -1px -50px; 
+  height: 75%;
+  overflow:hidden;
+}
+
+.show-bg{
+  background-image: url(../images/shulan/video.jpg); 
+  background-repeat:no-repeat;
+  height: 800px;
+  background-size:100%;
+}
+
+.address-bg{
+  background-image: url(../images/shulan/contact.jpg); 
+  background-repeat:no-repeat;
+  height:600px;
+  background-size:100%;
+}
+
+
+    
 
