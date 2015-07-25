@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -6,84 +7,125 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-
     <!-- Le styles -->
     <link href="./bootstrap/css/bootstrap.css" rel="stylesheet">
     <link href="./docs.css" rel="stylesheet">
     <link href="./bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
-
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
     <!-- Le fav and touch icons -->
   </head>
-
   <body>
+  <style>
+      body{
 
-      <div align="center">
-      <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="1024" height="480" align="center" wmode="transparent">
-          <param name="movie" value="./images/shulan/shulan_movie.swf" />
-          <param name="quality" value="high">
+          margin:55px auto 0px;
+  }
+  .contenter{
+  	      width: 980px;
+          height:576px;
+          margin:auto;
+  }
+  .videobox{
+          width:100%;
+          height:80%;
+  	margin-top: 0px;
+  }
+  .logo{
+    
+  	margin: 0 auto;
+  }
+      .img_bg{
           
-          <param name="scale" value="noscale">
-          
-          <param name="FlashVars" value="&amp;MM_ComponentVersion=1&amp;skinName=Clear_Skin_1&amp;streamName=images/aa&amp;autoPlay=true&amp;autoRewind=true" />
-          <param name="swfversion" value="8,0,0,0">
+            display: block;
+          margin:0 auto;
+      }
+    .click_go{
+          display: none;
+    	margin:0 auto;
+    }  
+  </style>
+      <div class="contenter" align="center">
+	      <div class="videobox">
+		      <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="100%" height="100%" wmode="transparent">
+		          <param name="movie" value="./images/shulan/shulan_movie.swf" />
+		          <param name="quality" value="high">         
+		          <param name="scale" value="noscale">        
+		          <param name="FlashVars" value="&amp;MM_ComponentVersion=1&amp;skinName=Clear_Skin_1&amp;streamName=images/aa&amp;autoPlay=true&amp;autoRewind=true" />
+		          <param name="swfversion" value="8,0,0,0">
+		          <!-- 下一个对象标签用于非 IE 浏览器。所以使用 IECC 将其从 IE 隐藏。 -->
+		          <!--[if !IE]>-->
+		      <object type="application/x-shockwave-flash" data="./images/shulan/shulan_movie.swf" width="100%" height="100%" wmode="transparent">
+		            <!--<![endif]-->
+		            <param name="quality" value="high">            
+		            <param name="scale" value="noscale">           
+		            <param name="FlashVars" value="&amp;MM_ComponentVersion=1&amp;skinName=Clear_Skin_1&amp;streamName=images/aa&amp;autoPlay=true&amp;autoRewind=true" />
+		            <param name="swfversion" value="8,0,0,0">
+		            <param name="expressinstall" value="./images/shulan/shulan_movie.swf">
+		            <!-- 浏览器将以下替代内容显示给使用 Flash Player 6.0 和更低版本的用户。 -->
+		            <div>
+		              <h4>此页面上的内容需要较新版本的 Adobe Flash Player。</h4>
+		              <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="获取 Adobe Flash Player" /></a></p>
+		            </div>
+		            <!--[if !IE]>-->
+		          </object>   
+		  
+               </object>
 
-          <!-- 下一个对象标签用于非 IE 浏览器。所以使用 IECC 将其从 IE 隐藏。 -->
-          <!--[if !IE]>-->
-      <object type="application/x-shockwave-flash" data="./images/shulan/shulan_movie.swf" width="1024" height="480" align="center" wmode="transparent">
-            <!--<![endif]-->
-            <param name="quality" value="high">
-            
-            <param name="scale" value="noscale">
-            
-            <param name="FlashVars" value="&amp;MM_ComponentVersion=1&amp;skinName=Clear_Skin_1&amp;streamName=images/aa&amp;autoPlay=true&amp;autoRewind=true" />
-            <param name="swfversion" value="8,0,0,0">
-            <param name="expressinstall" value="./images/shulan/shulan_movie.swf">
-            <!-- 浏览器将以下替代内容显示给使用 Flash Player 6.0 和更低版本的用户。 -->
-            <div>
-              <h4>此页面上的内容需要较新版本的 Adobe Flash Player。</h4>
-              <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="获取 Adobe Flash Player" /></a></p>
-            </div>
-            <!--[if !IE]>-->
-          </object>   
-      </object>
+	      </div>
+          
+		   <div class="logo" >
+		       <div ><a href="/shulan/site/index/" title="点击进入官网">
+				<img  src="./images/shulan/logo.png" alt="Generic placeholder image" width="20%" height="20%" >
+		       </a> 
+               </div>
+               
+          </div>
       </div>
+      </body>
 
-   <div align="center">
-       <a href="/shulan/site/index/" title="点击进入官网">
-        <img class="img" src="./images/shulan/logo.png" alt="Generic placeholder image" width="15%" height="15%">
-       </a>
-    </div>
-    <!--
-    <div align="center">
-        <button type="button" class="btn btn-danger" align="center" style="background-color:black" onClick="go()"><span>点击进入束兰官网</span>
-        </button>    
-    </div>
-    </br>
-    -->
+      <div>
+          <div class="foot" style="background-color: rgb(119, 116, 116); color:white" align="center">
+		        <p2 align="center">版权所有&copy2015 CHANGCHUN SHULAN INTERNATIONAL CLOTHING Co,LTD{长春束兰国际} 地址：长春好旺角一楼门市 电话：0431-87638765</p2>
+		    </div>
+      </div>
       
-    <footer>
-    <div style="background-color: rgb(119, 116, 116); color:white" align="center">
-        <p2 align="center">版权所有&copy2015 CHANGCHUN SHULAN INTERNATIONAL CLOTHING Co,LTD{长春束兰国际} 地址：长春好旺角一楼门市 电话：0431-87638765</p2>
-    </div>
-    </footer>
-
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="./bootstrap/js/jquery.js"></script>
     <script src="./bootstrap/js/bootstrap.js"></script>
 <script language="javascript" type="text/javascript">
+   
     function go(){   
         window.location.href="/shulan/site/index";
     }
+    $(function(){  
+	var hoverTimer, outTimer;
+         var bt_width=$(".img_bg")[0].width;var bt_height=$(".img_bg")[0].height;
+      $(".logo").hover(function(){
+     	 clearTimeout(outTimer);
+         hoverTimer = setTimeout(function(){
+         	$(".img_logo")[0].style.display="none";
+             $(".button_logo")[0].style.display="block";
+             $(".click_go span")[0].width=bt_width;
+             //console.log(bt_height);
+             $(".button_logo")[0].height=bt_height;
+         }, 400);
+      	 		
+                	
+    },function(){
+    	 clearTimeout(hoverTimer);
+                outTimer = setTimeout(function(){
+                	$(".img_logo")[0].style.display="block";
+    	$(".button_logo")[0].style.display="none";
+                }, 400);
+    	
+    });
+    })
 </script>
 
     
-    
-  </body>
 </html>

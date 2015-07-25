@@ -54,12 +54,6 @@
   </div>
             
 </div>
-    
-<footer>
-    <div class="thumbnail" style="background-color: white">
-	<p  align = 'center'>&copy; 2015 www.shulancc.com; </p>
-    </div>
-</footer>
-    
+
 
   

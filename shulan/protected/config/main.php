@@ -5,11 +5,10 @@ return array(
 	'defaultController'=>'site',    
 	'components'=>array(
 		'urlManager'=>array(
-			'urlFormat'      => 'path',
-			'showScriptName' => false,
+			'urlFormat'=>'path',
+            'showScriptName' => false,
 			'rules'=>array(
-                'shulan/index/<g:\w>' => 'shulan/index',
-                '/<action>/'          => 'site/<action>', 
+                'shulan/index/<g:\w>'=>'shulan/index',
 			),
 		),
 	),

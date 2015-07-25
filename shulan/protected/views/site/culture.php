@@ -6,6 +6,11 @@ body{
  	background-size:100%;
 }
     
+p{
+	padding: 0.4em 0;
+	margin:0 0;
+}
+    
 </style>
 
 
@@ -18,7 +23,6 @@ body{
     <div align="center">
         <img class="img" src="../../../../images/shulan/slogan.png" alt="Generic placeholder image" width="20%" height="20%">
 	</div>
-    </br>
     
     <div align="center" style="color:white">
  <p>束兰皮草始建于1986年，历经30年的考验，在风雨中成长，如今已成为行业领军品牌。</p>
@@ -35,7 +39,7 @@ body{
 
  <p>涵盖中外、敢为人先、打造世界名牌；</p>
  <p>以人为本、诚信务实、铸就束兰辉煌。</p>
-  
+
     <div>
 
 

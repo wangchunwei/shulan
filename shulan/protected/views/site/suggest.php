@@ -1,5 +1,5 @@
 
-
+</div>
 <div class="row">
 <div class="col-md-10 col-sm-offset-1">
 <div class="thumbnail" style="background-color:rgb(89, 82, 82)">
@@ -7,9 +7,9 @@
         
     <div style="margin:7% auto;">
         <style>
-            label{
-              float: left;
-margin-right: 10px;
+            label2{
+            	float: left;
+				margin-right: 10px;
                 letter-spacing:2em;
             }
             .form-group{
@@ -20,38 +20,41 @@ margin-right: 10px;
     <div class="col-md-10 col-md-offset-1" >  
         <form id="myForm" name="myForm" onmouseover="stepIn(this.id)" onmouseout="stepOut(this.id)">
       <div class="form-group">
-        <label for="exampleInputText" style="color:white">昵称</label>
-        <input type="text" class="form-control" id="name" name="name" placeholder="必填">
+        <label2 for="exampleInputText" style="color:white">昵称</label2>
+        <input type="text" class="form-control" id="name" name="name" placeholder="必填" color="white">
       </div>
       <div class="form-group">
-        <label for="exampleInputEmail1" style="color:white">邮箱</label>
+        <label2 for="exampleInputEmail1" style="color:white">邮箱</label2>
         <input type="email" class="form-control" id="email" name="mail" placeholder="必填">
       </div>
       <div class="form-group">
-        <label for="exampleInputText" style="color:white">城市</label>
+        <label2 for="exampleInputText" style="color:white">城市</label2>
         <input type="text" class="form-control" id="city" name="city" placeholder="必填">
       </div>
       <div class="form-group">
-        <label for="exampleInputPhone1" style="color:white;">手机</label>
+        <label2 for="exampleInputPhone1" style="color:white;">手机</label2>
         <input type="number" class="form-control" id="phone" name="phone">
       </div>
       <div class="form-group">
-          <label for="exampleInputText" style="color:white;letter-spacing:0;">建议内容</label>
-        <textarea class="form-control" rows="3" id="content" name="content" placeholder="必填" style="margin-left: 90px;width: 70.5%;"></textarea>
+          <label2 for="exampleInputText" style="color:white;letter-spacing:0;">建议内容</label2>
+          <textarea class="form-control" rows="3" id="content" name="content" placeholder="必填" style="margin-left: 90px;width: 70.5%;color:black"></textarea>
       </div>
      
-      </form>
+    	</form>
+            </br>
+    		</br>
+            </br>
+    		</br>
                 <input class="btn btn-primary" style="background-color:black;margin-left: 40%;" type="button" id="formButton" value="提交资料"/>
 
         </div>
         </div>
         
         
-        
     </div>
     <div class="clearfix"></div>
-  <div style="background-color:rgb(89, 82, 82)">
-  </div>  
+	<div style="background-color:rgb(89, 82, 82)">
+	</div>	
 </div>
 </div>
 </div>

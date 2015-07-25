@@ -1,17 +1,20 @@
+</div>
 <style>
-p{
-text-indent: 2em;
-}   
+    p{
+        margin:0 0 10px;
+        color:white;
     
+    }
 </style>
 <div class="row">
 <div class="col-md-10 col-sm-offset-1">
 <div class="container-fluid">
 
-    <div class="thumbnail" style="background-color:white;height:800px;overflow:scroll;">
+    <div class="thumbnail" style="background-color:transparent;">
         <div class="media" >
-        <h3 align="center">法律声明</h3>
+            <h3 align="center" style="color:white">法律声明</h3>
               <div >
+              </br>
               <p>访问、浏览或使用束兰皮草品牌：束兰皮草（以下简称“束兰”）网站，表明您已阅读、理解并同意受以下条款的约束，并遵守所有适用的法律和法规。如果您不同意下列任何条款、请停止使用本网站。</p>
               <p>一、网站使用</p>
               <p>本网站的内容仅供您非商业用途的个人使用。对本网站的使用不得违背法律、法规及公众道德。除束兰事先另有书面许可外，谢绝出于其他目的的使用行为。</p> 
@@ -54,7 +57,6 @@ text-indent: 2em;
               <p>八、适用法律和管辖权</p>
               <p>因本公告，以及访问、浏览或使用本网站所发生的争议适用中华人民共和国法律。上述争议应当协商解决，协商不成的，各方一致同意至长春有管辖权的法院诉讼解决。</p>
 
-              <p align="center"><a href="/" class="btn btn-primary" role="button">确认&nbsp&nbsp&nbsp&nbsp&nbsp</a> <a href="#" class="btn btn-default" role="button">取消&nbsp&nbsp&nbsp&nbsp&nbsp</a></p>
               
           </div>
           </div>           

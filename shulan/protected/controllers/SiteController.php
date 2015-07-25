@@ -2,12 +2,18 @@
 class SiteController extends CController 
 {
     
-    public function actionIndex()
+    public function actionMeau()
     {
         $data = "sshulan";
-        $this->render("index", array("data" => $data));
+        $this->render("meau", array("data" => $data));
         
     }
+    
+    public function actionIndex()
+    {
+     	$this->render("index");   
+    }
+        
     
     public function actionList()
         
@@ -75,6 +81,16 @@ class SiteController extends CController
         
     }
     
+    public function actionWork()
+    {
+     	$this->render("work");   
+    }
+    
+    public function actionAbout()
+    {
+     	$this->render("about");   
+        
+    }
     public function actionSetSuggest()
     {
 
