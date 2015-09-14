@@ -63,8 +63,8 @@
 	<div class="header-grids">
 	<div class="col-md-3 header-grid">
 	<div class="header-img1 wow bounceInLeft animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
-        <a href=/shulan/site/meau/" >
-            <img src="../../../../images/shulan/cloth1.png"" class="img-responsive" alt="/">
+        <a href="/shulan/site/meau/">
+            <img src="../../../../images/shulan/cloth1.png" class="img-responsive" alt="/">
 	    </a>
 					<h4>精品赏析 </h4>
         			<p>束兰皮草精品款式</br>提供最潮流的皮草样式</p>
@@ -72,27 +72,27 @@
 					</div>
 	<div class="col-md-3 header-grid">       
 		<div class="header-img2 wow fadeInDownBig animated animated" data-wow-delay="0.4s">
-	        <a href=/shulan/site/show/" >
-            <img src="../../../../images/shulan/cloth2.png"" class="img-responsive" alt="/">
+	        <a href="/shulan/site/show/" >
+            <img src="../../../../images/shulan/cloth2.png" class="img-responsive" alt="/">
 	     </a>
 					<h4>精品秀场</h4>
-            		<p>舒兰皮草时装模特秀</br>最精美的展示</p>
+            		<p>束兰皮草时装模特秀</br>最精美的展示</p>
 					</div>
 					</div>
 					
 	<div class="col-md-3 header-grid">
 		<div class="header-img3 wow fadeInUpBig animated animated" data-wow-delay="0.4s">
-        <a href=/shulan/site/history/" >
-            <img src="../../../../images/shulan/cloth3.png"" class="img-responsive" alt="/">
+        <a href="/shulan/site/history/" >
+            <img src="../../../../images/shulan/cloth3.png" class="img-responsive" alt="/">
 	    </a>
 					<h4>品牌传奇</h4>
-                    <p>舒兰皮草悠久历史</br>始于1986年</p>
+                    <p>束兰皮草悠久历史</br>始于1986年</p>
 					</div>
 					</div>
 					<div class="col-md-3 header-grid">
 						<div class="header-img4 wow bounceInRight animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
-        <a href=/shulan/site/culture/" >
-            <img src="../../../../images/shulan/cloth4.png"" class="img-responsive" alt="/">
+        <a href="/shulan/site/culture/" >
+            <img src="../../../../images/shulan/cloth4.png" class="img-responsive" alt="/">
 	    </a>
 					<h4>品牌文化 </h4>
                     <p>针针想顾客 线线系真诚 </br>件件保质量 款款寄深情 </p>
@@ -107,17 +107,16 @@
 		 <div class="content">
 			<div class="about-section">
 				<div class="container">
-					<h3>关于我们</h3>
+					<h3>关于束兰</h3>
 				<div class="about-grids">
 				<div class="col-md-5 about-img wow bounceInRight animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
                     <img src="../../../../images/shulan/start.jpg" class="img-responsive" alt="/">
 				</div>
 					<div class="col-md-7 about-grid wow bounceInLeft animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
-				<p style="text-indent:2em" >束兰皮草始建于1986年，历经30年的考验，在风雨中成长，如今已成为行业领军品牌。作为行业排头兵，束兰皮草始终秉承“针针想顾客、线线系诚信、件件保质量、款款寄深情”的理念服务于广大消费者，并获得了一致认可和好评。如今的束兰，远销35个国家和地区，变成了享誉中外的知名品牌。
-                <p style="text-indent:2em" >甄选世界顶级原皮，打造最优质的皮草，对于品质的始终坚守，让束兰历经时间长河的洗礼，在大浪淘沙中熠熠生辉。</p>
-				<p style="text-indent:2em" >世界顶级设计师强强联合，引领皮草风尚，对于时尚的渴求，让束兰站在行业之巅，引领世界皮草服饰发展。</p>
-				<p style="text-indent:2em" >“雪满貂裘，风摇金辔”是古人对于皮草之美的向往，而今，束兰将时装风尚与至臻品质完美融合，更是对艺术和文化的探寻与追求。</p>
-				<p style="text-indent:2em" >30年，之于品牌，尚属少年，束兰将以蓬勃向上之姿和冉冉升起之态在塑造世界一流品牌之路上不懈前行，开创更加辉煌的未来。</p>
+                <p style="text-indent:2em" >束兰国际服装有限责任公司始建于1986年。经过三十多年的经营与发展，束兰集团已成长为集研发、设计、生产、检测、销售为一体的中国毛皮服装领军企业。束兰品牌一直将高雅、精美、专属作为束兰的设计风格，每一件都融入了国内外著名设计师对不同群众的量身设计，让人们感受着属于自己的浪漫、唯美与温暖。</p>
+                <p style="text-indent:2em" >束兰品牌已成为高品质毛皮服装的象征，从创建伊始就建立起严格的品质保障体系，率先在国内将毛皮服装行业作坊式生产方式改造成大规模流水线生产方式，引发了行业内历史性的革命。于1997年通过了ISO-2000认证；2004年获中国皮革协会颁发的“中国裘皮衣王”称号和“中国真皮标志名牌产品”称号；2007年代表行业参加了国家《毛皮服装行业标准》的起草和修订工作；2009年束兰裘皮服装再获中国皮革协会“中国裘皮衣王”称号。 “雪满貂裘，风摇金辔”是古人对于皮草之美的向往，而今，束兰将至臻品质与时装风尚完美融合，是对艺术和文化的探寻与追求。</p>
+                <p style="text-indent:2em" >束兰品牌因其独特的风格、高雅的设计、精细的做工、一流的质量和全方位的服务而成为时尚之经典、行业之翘楚。</p>
+                <p style="text-indent:2em" >涵盖中外、敢为人先、打造世界名牌；以人为本、诚信务实、铸就束兰辉煌。</p>
 				</div>
 				<div class="clearfix"></div>
 				</div>
@@ -137,14 +136,14 @@
                         <i class="smartphone"></i>
                         </a>
 					<h4>束兰皮草精品店地址</h4>
-					<p>长春南关区好旺角一楼门市 长春市南关区新发路与大经路交叉口 好旺角一楼门市</p>
+					<p>长春南关区好旺角一楼门市 长春市南关区新发路与大经路交叉口</p>
 					</div>
 					<div class="col-md-4 service-grid wow bounceInRight animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
 					 <a href="/shulan/site/suggest/">
                         <i class="message"></i>
                         </a>
 						<h4>建议反馈</h4>
-						<p>在网站下留您宝贵的建议，以便后期我们更好的改进</p>
+						<p>在此留下您宝贵的建议，以便后期我们更好的改进</p>
 	`					</div>
 					<div class="clearfix"></div>
 					</div>
@@ -155,27 +154,27 @@
 		   <h3>精品款式</h3>
 		   <div class="latest-grids">
 		   <div class="latest-grid1">
-			  <div class="col-md-3 latest-grid work">
+			  <div class="col-md-3 latest-grid work">                
                   <img src="../../../images/gallery/01.jpg" class="img-responsive" alt="/">
-		      <div class="textbox">				
+		      <div class="textbox1">	
 			  </div>
 			  </div>
 
                			  <div class="col-md-3 latest-grid work">
                   <img src="../../../images/gallery/02.jpg" class="img-responsive" alt="/">
-		      <div class="textbox">				
+		      <div class="textbox1">				
 			  </div>
 			  </div>
                
                			  <div class="col-md-3 latest-grid work">
                   <img src="../../../images/gallery/03.jpg" class="img-responsive" alt="/">
-		      <div class="textbox">				
+		      <div class="textbox1">				
 			  </div>
 			  </div>
                
                			  <div class="col-md-3 latest-grid work">
                   <img src="../../../images/gallery/04.jpg" class="img-responsive" alt="/">
-		      <div class="textbox">				
+		      <div class="textbox1">				
 			  </div>
 			  </div>
                
@@ -184,22 +183,22 @@
 		   <div class="latest-grid2">
 				<div class="col-md-3 latest-grid work">
                   <img src="../../../images/gallery/05.jpg" class="img-responsive" alt="/">
-		      <div class="textbox">				
+		      <div class="textbox1">				
 			  </div>
 			  </div>
 				<div class="col-md-3 latest-grid work">
                   <img src="../../../images/gallery/06.jpg" class="img-responsive" alt="/">
-		      <div class="textbox">				
+		      <div class="textbox1">				
 			  </div>
 			  </div>
                				<div class="col-md-3 latest-grid work">
                   <img src="../../../images/gallery/07.jpg" class="img-responsive" alt="/">
-		      <div class="textbox">				
+		      <div class="textbox1">				
 			  </div>
 			  </div>
                				<div class="col-md-3 latest-grid work">
                   <img src="../../../images/gallery/08.jpg" class="img-responsive" alt="/">
-		      <div class="textbox">				
+		      <div class="textbox1">				
 			  </div>
 			  </div>
                
@@ -241,11 +240,12 @@
 		 <div class="bottom-menu">
       <ul>
    	<li><a href="/shulan/site/law/">法律声明</a></li>
+    <!--
     <li><a href="/shulan/site/about/">关于束兰</a></li>
+    -->
   	<li><a href="/shulan/site/address/">联系我们</a></li>
 	<li><a href="/shulan/site/suggest/">建议信箱</a></li>
-   	<li><a href="#">精品店</a></li>
-   	<li><a href="#">官方微博</a></li>
+   	<li><a href="#"  data-toggle="modal" data-target="#feel">微信公众平台</a></li>
 		</div>
 		</div>
 		<div class="footer-bottom wow bounceInRight animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
@@ -271,4 +271,29 @@
 		   </div>
 
  </body>
+<!-- Modal -->
+<div class="modal fade" id="feel" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel" align="center">扫一扫，获得微信公众号</h4>
+      </div>
+      <div class="modal-body" align="center">
+        
+        <img  src="./../../../images/shulan/erweima.JPG" title="欢迎扫一扫微信二维码" width="320px" height="320px">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+      </div>
+    </div>
+  </div>
+</div>                 
+             
+             
+             
+             
+             
+             
+             
 </html> 

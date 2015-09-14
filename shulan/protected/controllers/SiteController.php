@@ -9,20 +9,37 @@ class SiteController extends CController
         
     }
     
-    public function actionIndex()
+    public function actionIndex2()
     {
-     	$this->render("index");   
-    }
+        $tdk = array(
+        	"title" => "束兰皮草官网主页_束兰皮草-长春束兰皮草官网",
+            "description" => "束兰皮草，中国皮草驰名商标，长春束兰皮草分公司",
+            "keywords" => "束兰皮草官网，长春束兰皮草，束兰国际,中国著名品牌,中国裘皮衣王,中国真皮标志品牌产品,中国皮革协会毛皮专业委员会副会长单位,裘皮,皮草,皮衣,貂皮大衣,尼克服,羊绒大衣,狐狸皮,毛领,时装,衣服,服饰,时尚服装",
+            );
         
+        $mysql = new SaeMysql();
+        $sql   = "SELECT * FROM `post` WHERE `valid` = 1 order by `mtime` desc"; 
+        $res   = $mysql->getData($sql);
+     	$this->render("index",array("tdk" => $tdk, "data" => $res));   
+    }
     
-    public function actionList()
+    public function actionIndex() {
         
-    {
-        $get = $_GET['id'];
-        $data = "list";
-        $this->render("list", array("data" => $data));
+        $tdk = array(
+        	"title" => "束兰皮草官网主页_束兰皮草-长春束兰皮草官网",
+            "description" => "束兰皮草，中国皮草驰名商标，长春束兰皮草分公司",
+            "keywords" => "束兰皮草官网，长春束兰皮草，束兰国际,中国著名品牌,中国裘皮衣王,中国真皮标志品牌产品,中国皮革协会毛皮专业委员会副会长单位,裘皮,皮草,皮衣,貂皮大衣,尼克服,羊绒大衣,狐狸皮,毛领,时装,衣服,服饰,时尚服装",
+            );
+        
+        $mysql = new SaeMysql();
+        $sql   = "SELECT * FROM `post` WHERE `valid` = 1 order by `mtime` desc"; 
+        $res   = $mysql->getData($sql);
+     	$this->render("index2",array("tdk" => $tdk, "data" => $res)); 
+        
+        
         
     }
+    
     
     public function actionLaw()
     {
@@ -88,7 +105,12 @@ class SiteController extends CController
     
     public function actionAbout()
     {
-     	$this->render("about");   
+        $tdk = array(
+        	"title" => "束兰皮草官网主页_束兰皮草-长春束兰皮草官网",
+            "description" => "束兰皮草，中国皮草驰名商标，长春束兰皮草分公司",
+            "keywords" => "束兰皮草官网，长春束兰皮草，束兰国际,中国著名品牌,中国裘皮衣王,中国真皮标志品牌产品,中国皮革协会毛皮专业委员会副会长单位,裘皮,皮草,皮衣,貂皮大衣,尼克服,羊绒大衣,狐狸皮,毛领,时装,衣服,服饰,时尚服装",
+            );
+     	$this->render("about", array("tdk" =>$tdk)); 
         
     }
     public function actionSetSuggest()
@@ -100,12 +122,12 @@ class SiteController extends CController
         $name    = isset($_POST['city'])    ? $_POST['city']    : null;
         $city    = isset($_POST['name'])    ? $_POST['name']    : null;
         if(empty($mail) || strpos($mail, '@') == false){
-            echo json_encode(array('msg' => '邮箱不能为空'));
+            echo json_encode(array('msg' => '邮箱不能为空', 'code' => 0));
             return;
         }
         
         if(empty($content)){
-            echo json_encode(array('msg' => '留言不能为空'));
+            echo json_encode(array('msg' => '留言不能为空', 'code' => 0));
             return;
         }
         
@@ -115,7 +137,7 @@ class SiteController extends CController
         
 		$mysql->runSql($sql);
         
-        echo json_encode(array('msg' => '提交成功！！感谢您的宝贵意见'));
+        echo json_encode(array('msg' => '提交成功！！感谢您的宝贵意见', 'code' => 1));
         
     }
         

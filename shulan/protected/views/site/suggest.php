@@ -71,11 +71,16 @@ $('#formButton').click(function() {
         data: $('#myForm').serialize(),
         success: function (data) {
             var msg=data['msg'];
+            var code=data['code'];
             alert(msg);
+            if(code==1) {
+            	window.location.href="/shulan/site/index/";
+            }
         },
         
         error: function(x, e) {
             alert("提交成功！！感谢您的宝贵意见");
+            window.location.href="/shulan/site/index/";
         }
     });
 }); 

@@ -1,6 +1,10 @@
 <link href="../../../../bootstrap/css/font-awesome.min.css" media="all" rel="stylesheet">
 <link href="../../../../bootstrap/css/history.css" media="all" rel="stylesheet">
-
+<style>
+footer{
+position:static!important;
+}
+</style>
 <div class="timeline animated">
 	
 	<div class="timeline-row">

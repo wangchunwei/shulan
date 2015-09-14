@@ -15,7 +15,9 @@
     </div>
     <div class="clearfix"></div>
 	<div style="background-color: rgba(102, 98, 98, 1);border-radius: 15px;">
+        <!--
         <h3><font color="yellow">&nbsp&nbsp&nbsp&nbsp&nbsp如何选购称心的皮草</font></h3>
+		-->
         <font color="white" size="3"  face="微软雅黑">
             <p>皮草与普通服饰不同，它的寿命会比较长。因此在选购皮草的时候，要仔细考量，挑选最适合自己的。</p>
             <p>第一，选品质。有330多年皮草拍卖经验的NAFA（北美裘皮拍卖行）是向国际毛皮业提供种类最丰富的野生毛皮的拍卖行，其毛皮的标准严格，品质也属国际顶级。这样国际顶级皮草供应商每年的出货量都是有限的，因此价格不菲，并不是所有的品牌都具备与其合作的实力。</p>

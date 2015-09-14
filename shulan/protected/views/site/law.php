@@ -5,6 +5,10 @@
         color:white;
     
     }
+    
+    footer{
+    position:static!important;
+    }
 </style>
 <div class="row">
 <div class="col-md-10 col-sm-offset-1">

@@ -16,3 +16,5 @@ handle:
 - rewrite: if(!is_dir() && !is_file() && path ~ "/demos/phonebook/") goto "/demos/phonebook/index.php?%{QUERY_STRING}"
 - rewrite: if(!is_dir() && !is_file() && path ~ "/demos/helloworld/show/" ) goto "/demos/helloworld/index.php?r=site/show/?%{QUERY_STRING}"
 - rewrite: if(!is_dir() && !is_file() && path ~ "/shulan/site/(.*)") goto "/shulan/index.php?r=site/$1" 
+# rewrite: if(!is_dir() && !is_file() && path ~ "/shulan/cms/unsetValid/?(.*)" ) goto "/shulan/index.php?r=cms/unsetValid&id=$1"
+- rewrite: if(!is_dir() && !is_file() && path ~ "/shulan/cms/(.*)") goto "/shulan/index.php?r=cms/$1" 

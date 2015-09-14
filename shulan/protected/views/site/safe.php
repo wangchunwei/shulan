@@ -3,6 +3,10 @@
         margin:0 0 10px;
     
     }
+    
+    footer{
+    position:static!important;
+    }
 </style>
 
 </div>

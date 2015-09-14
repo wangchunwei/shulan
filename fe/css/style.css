@@ -34,7 +34,7 @@ body{
   background: url("../../images/shulan/BG1.jpg")no-repeat 0px 0px;
   background-size:cover;
   min-height: auto;
-  text-align: center;
+  <!--text-align: center;-->
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -165,7 +165,7 @@ span.menu {
   -ms-transition: .5s all;
 }
 .about-section {
-  padding: 15em 0 4em;
+  padding: 5em 0 4em;
   background:#eee;
 }
 .about-img img {
