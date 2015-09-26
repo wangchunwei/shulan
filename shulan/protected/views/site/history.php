@@ -30,7 +30,7 @@ position:static!important;
 		<div class="panel timeline-content">
 			<div class="panel-body">
 				<blockquote>
-					<p>经过6年的发展，束兰正式成立集团公司，此时的束兰在行业中已有举足轻重的地位</p>
+					<p>经过6年的发展，此时的束兰已有举足轻重的地位</p>
                     <div align="center">
                     <img class="img-responsive" src="../../../images/history/92.png" width="250" height="270" />
                     </div>
@@ -49,14 +49,13 @@ position:static!important;
 				<p>束兰国际正式落户于北京市顺义区</p>
                 <p>束兰皮草荣获中国皮草协会颁发的“中国裘皮衣王”的称号</p>
                 <p>束兰皮草荣获“中国真皮标志名牌产品”称号</p>
-                <p>荣获国家名推委授予的“中国名牌产品”称号</p>
                 <div align="center">
                 <img class="img-responsive" src="../../../images/history/04.png" width="250" height="200"/>
                 </div>
 			</div>
 		</div>
 	</div>
-	
+	<!--
 	<div class="timeline-row">
 		<div class="timeline-time">2007年</div>
 		<div class="timeline-icon">
@@ -72,7 +71,7 @@ position:static!important;
 			</div>
 		</div>
 	</div>
-	
+	-->
 	<div class="timeline-row">
 		<div class="timeline-time">2008年</div>
 		<div class="timeline-icon">

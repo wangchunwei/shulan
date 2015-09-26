@@ -57,7 +57,7 @@ $meau = array(
 		<div class="container">
     
 		<div class="header-top">
-		<div class="top-menu">
+		<div class="top-menu" align="center">
 	
 		<ul align="center">
         <font face="微软雅黑" size="3">
@@ -102,11 +102,13 @@ if(strpos($url, "index") == true || strpos($url, "cms") == true) {
     
 }
 ?>
+
 <style>
 footer{
     position:static!important;
     }
 </style>
+
 <footer style="color:white;position: absolute;bottom: 0;width: 1280px;margin: 0 auto;" align="center">
 	<div class="thumbnail" style="background-color:transparent; color:white;margin-bottom: 0;">
         <p align = 'center' style="color:white">

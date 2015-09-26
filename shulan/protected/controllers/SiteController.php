@@ -76,6 +76,11 @@ class SiteController extends CController
         $this->render("show");
     }
     
+    public function actionShow2()
+    {
+        $this->render("show2");
+    }
+    
     
     public function actionStatus()
     {
