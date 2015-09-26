@@ -10,4 +10,4 @@ Yii框架下的页面展示
 version:1.0  
 product:wangchunwei  
 contact:willwcw@163.com  
-blog:[王春伟的博客](www.wangchunwei.com)  
+blog:[王春伟的博客](http://www.wangchunwei.com)  
