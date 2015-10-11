@@ -310,7 +310,7 @@ foreach((array)$data as $k => $v) {
 		</div>
 		</div>
 		<div class="footer-bottom wow bounceInRight animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
-									<p>Copyright &copy; 2015.Shulan All rights reserved.<a target="_blank" href="http://sc.chinaz.com/moban/"></a></p>
+									<p>版权所有：南关区束兰皮草锡国店<a target="_blank" href="#"></a></p>
 									</div>
 					<script type="text/javascript">
 						$(document).ready(function() {
